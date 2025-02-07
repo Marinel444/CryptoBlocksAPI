@@ -1,0 +1,36 @@
+[
+{
+    "model": "blocks.currency",
+    "pk": 1,
+    "fields": {
+        "name": "ethereum",
+        "symbol": "ETH"
+    }
+},
+{
+    "model": "blocks.currency",
+    "pk": 2,
+    "fields": {
+        "name": "bitcoin",
+        "symbol": "BTC"
+    }
+},
+{
+    "model": "blocks.provider",
+    "pk": 1,
+    "fields": {
+        "name": "CoinMarketCap",
+        "url": "https://sandbox-api.coinmarketcap.com/v1/blockchain/statistics/latest",
+        "api_key": "b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c"
+    }
+},
+{
+    "model": "blocks.provider",
+    "pk": 2,
+    "fields": {
+        "name": "BlockChair",
+        "url": "https://api.blockchair.com/",
+        "api_key": ""
+    }
+}
+]

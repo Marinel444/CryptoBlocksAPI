@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+*.venv/
+venv/
+Pipfile.lock
+
+# Django
+db.sqlite3
+/media/
+staticfiles/
+celerybeat-schedule
+
+# FastAPI
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.log
+docker-compose.override.yml
+.env.docker
+
+# PostgreSQL & Redis
+postgres_data/
+redis_data/
